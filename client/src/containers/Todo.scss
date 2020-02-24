@@ -1,0 +1,13 @@
+.todoItem {
+    border:0 !important;
+}
+.checked {
+    color:#008000;
+    text-decoration: line-through;
+    cursor:pointer;
+}
+
+.unchecked {
+    color: #231841;
+    cursor:pointer;
+}

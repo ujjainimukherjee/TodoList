@@ -1,0 +1,26 @@
+version: '3.5'
+services:
+  todo-client:
+    build:
+      context: ./client
+    container_name: todo-client
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client/src:/usr/src/app/src
+    command: >
+      sh -c "cd /usr/src/app && npm start"
+    
+  todo-svc:
+    build:
+      context: ./server
+    container_name: todo-svc
+    working_dir: /app
+    volumes:
+      - ./server/src:/app/src
+      - ./server/db:/app/db
+    ports:
+      - "5000:5000"
+    command: >
+      sh -c "pwd && ls -l && npm run server"
+  

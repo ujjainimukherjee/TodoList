@@ -1,0 +1,23 @@
+.todoList-container {
+    font-family: "Circular","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    background-color: #f3eaff;
+    font-weight:bold;
+
+    .hideTable {
+        display: none;
+    }
+    
+    ul {
+        padding-left:0px;
+        border-radius: 8px;
+        border: .8px solid #cdbbe5;
+        box-shadow: 0 7px 11px 2px rgba(0,0,0,.28);
+    }
+    .row {
+        .col-sm, .col-sm-8, .col-sm-4 {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+        }
+    }
+} 
