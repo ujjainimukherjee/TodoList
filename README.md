@@ -34,9 +34,10 @@ To get the coverage, please type: 'npm run coverage'
 
 ## Improvements
 
-Features I couldn't complete but can be improved
+Features I couldn't complete but can be added
 
 * Add error handling on the UI side and also on node side
 * Finish all unit testing
 * When the list loads, show the 'done' items at the top
-* Ability to choose all the items together and delete
+* Ability to select all the items together for completion or deletion
+* User login
