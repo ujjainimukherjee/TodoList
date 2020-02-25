@@ -8,7 +8,7 @@ router.get('/', todos_controller.todos_list);
 // POST request to create todo item
 router.post('/', todos_controller.todos_create_on_post);
 
-// PUT request for updating the topdolist
+// PUT request for updating the todo item
 router.put('/:id', todos_controller.todo_update_on_put);
 
 // DELETE request to delete todo.
