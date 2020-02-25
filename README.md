@@ -12,7 +12,6 @@ This is a project to create a 'to do list'
 ## How to start the project
 Please clone the project from github. To run the app type
 * docker-compose -f docker-compose-local.yml build 
-and
 * docker-compose -f docker-compose-local.yml up
  
  This will bring up two containers 
